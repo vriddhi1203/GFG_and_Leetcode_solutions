@@ -5,9 +5,9 @@ void permutation(string str,int first,int last){
 		cout<<str<<" ";
 	else{
 		for(int i=first;i<=last;i++){
-			swap(str[first],str[i]);
-			permutation(str,first+1,last);
-			swap(str[first],str[i]);
+			swap(str[first],str[i]); //by using the c++ stl swap function
+			permutation(str,first+1,last); //call to the function
+			swap(str[first],str[i]); //backtracking
 		}
 	}
 }
