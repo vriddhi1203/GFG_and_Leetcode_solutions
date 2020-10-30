@@ -8,7 +8,7 @@ public:
 
 void insertafter(Node* prev_node,int new_data){
 	if(prev_node==NULL){
-		cout<<"The given previous cannot be null";
+		cout<<"The given previous node cannot be null";
 		return;
 	}
 	Node* new_node=new Node();
