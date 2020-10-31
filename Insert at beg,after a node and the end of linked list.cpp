@@ -17,11 +17,11 @@ void insertafter(Node* prev_node,int new_data){
 	prev_node->next=new_node;
 }
 
-void append(Node** head_ref,int new_data){
+void append(Node** head_ref,int new_data){  //here Node** head_ref refers to a pointer pointing to the head pointer
 	Node* last=*head_ref;
 	Node* new_node=new Node();
 	new_node->data=new_data;
-	new_node->next=NULL;
+	new_node->next=NULL; 
 	 if(*head_ref==NULL){ //if linked list is empty initially
 	 	*head_ref=new_node;
 	 	return;
