@@ -21,7 +21,7 @@ void append(Node** head_ref,int new_data){  //here Node** head_ref refers to a p
 	Node* last=*head_ref;
 	Node* new_node=new Node();
 	new_node->data=new_data;
-	new_node->next=NULL; 
+	new_node->next=NULL;  //since new_node is last node so it's pointer part has to be NULL
 	 if(*head_ref==NULL){ //if linked list is empty initially
 	 	*head_ref=new_node;
 	 	return;
