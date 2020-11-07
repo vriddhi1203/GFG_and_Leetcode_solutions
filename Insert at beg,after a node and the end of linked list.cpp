@@ -53,7 +53,7 @@ int main(){
 	push(&head,6); //inserting 6 in beginning
 	push(&head,7); //inserting 7 in beginning
 	push(&head,1); //inserting 1 in beginning
-	append(&head,4); //inserting 4 at the last
+	append(&head,4); //inserting 4 at the last of the linked list
 	insertafter(head->next,8); //inserting 8 after 7
 	printlinkedlist(head);
 	return 0;
