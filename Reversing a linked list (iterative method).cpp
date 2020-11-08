@@ -39,10 +39,10 @@ int main(){
 	push(&head,20);
 	push(&head,4);
 	push(&head,15);
-	push(&head,85);
+	push(&head,85);   //till here only inserting is happening 
 	cout<<"Linked list before reversal is:"<<endl;
 	printlinkedlist(head);
-	reverse(&head);
+	reverse(&head);    //here the actual reversal starts
     cout<<endl;
 	cout<<"Linked list after reversal is:"<<endl;
 	printlinkedlist(head);
