@@ -21,4 +21,5 @@ int main(){
 		cin>>k;
 		cout<<kth_smallest_element(arr,0,n-1,k)<<endl;
 	}
+	return 0;
 }
