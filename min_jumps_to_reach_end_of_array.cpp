@@ -1,4 +1,4 @@
-//........................O(n2) approach..............................//
+//........................O(n2) approach (Dynamic Programming)..............................//
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,7 +36,7 @@ int main(){
 
 
 
-//................................O(n) approach..............................//
+//................................O(n) approach (Greedy)..............................//
 
 #include <bits/stdc++.h>
 using namespace std;
