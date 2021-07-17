@@ -44,6 +44,6 @@ int main(){
 	for(int i=0;i<n;i++)
 		cin>>a[i];
 	Solution ob;
-	cout<<ob.subarraysum(a, n)<<endl;
+	cout<<ob.subarraySum(a, n)<<endl;
 	return 0;
 }
