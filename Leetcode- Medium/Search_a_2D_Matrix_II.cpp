@@ -24,7 +24,6 @@ bool searchMatrix(vector<vector<int>>& matrix, int target) {
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int flag=0;
         int row_size=matrix.size(),coloumn_size=matrix[0].size();
         int row=0;
         int coloumn=matrix[0].size()-1;
