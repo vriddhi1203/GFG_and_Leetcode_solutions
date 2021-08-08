@@ -1,4 +1,4 @@
-//..............approach while taking pprod and sprod arrays......//
+//..............approach while taking pprod and sprod vectors......//
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -22,7 +22,7 @@ public:
     }
 };
 
-//......approach while taking omly sprod array ...........//
+//......approach while taking only sprod vector ...........//
 
 class Solution {
 public:
