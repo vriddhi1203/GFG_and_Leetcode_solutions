@@ -10,7 +10,7 @@ public:
         for(int i=2;i<n;i++){
             arr[i]=1;                //initially taking every number as prime
         }
-        for(int i=2;i*i<n;i++){       //used seive of eratosthenes
+        for(int i=2;i*i<n;i++){       //used sieve of eratosthenes
             if(arr[i]==1){
                 for(int j=i*i;j<n;j+=i){
                     arr[j]=0;
