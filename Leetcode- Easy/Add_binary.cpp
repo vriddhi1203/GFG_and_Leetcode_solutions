@@ -14,9 +14,9 @@ public:
         while(i<a.size() || i<b.size()){
             sum=carry;
             if(i<a.size())
-                sum+=a[i]-'0';
+                sum+=a[i]-'0';     //to convert character into integer
             if(i<b.size())
-                sum+=b[i]-'0';
+                sum+=b[i]-'0';     //to convert character into integer
             if(sum==0){
                 carry=0;
                 res+='0';
