@@ -28,3 +28,23 @@ public:
         return vec;
     }
 };
+
+//.................Using Queue(BFS) approach......................//
+void binaryTreeRightView(Node* root){
+    queue<Node*> q;
+    q.push(root);
+    while(!q.empty()){
+        int n=q.size();
+        while(int i=1;i<=n;i++){
+            Node* temp=q.front();
+            q.pop();
+
+            if(i==n)
+                cout<<temp->data<<" ";
+            if(temp->left!=NULL)
+                q.push(temp);
+            if(temp->right!=NULL)
+                q.push(temp);
+        }
+    }
+}
